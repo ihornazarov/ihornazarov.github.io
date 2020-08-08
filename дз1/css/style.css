@@ -1,0 +1,261 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+}
+.container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section-header {
+	display: flex;
+	align-items: center;
+	height: 1072px;
+
+	
+	background-image: url('../img/header.jpg');
+}
+.section-header h1{
+
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 54px;
+}
+.section-header p{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 15px;
+}
+.container-header {
+	text-align: center;
+	margin: 0 auto;
+
+
+}
+.section-white {
+
+
+}
+.container1 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin: 50px 0;
+	position: relative;
+}
+.inner {
+	
+	
+	margin: 0 auto;
+	background-color: #fff;
+		position: absolute;
+		top: -20px;
+		color: #000;
+		font-size: 34px;
+		text-transform: uppercase;
+	}
+	.winner {
+		margin: 0 auto;
+		border: 2px solid #000;
+		width: 909px;
+		padding: 80px 172px 54px 181px;
+		color: #000;
+		font-size: 16px;
+	}
+.inner h2{
+	font-size: 34px;
+}
+.winner p {
+	font-size: 16px;
+}
+.section-blue {
+	background-image: url(../img/services.jpg);
+	height: 478px;
+
+}
+.container2 {
+	display: flex;
+	justify-content: center;
+	margin: 50px 0;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+.inner2 {
+	margin: 50px 0;
+	background-color: #000;
+		position: absolute;
+		top: -25px;
+		color: #fff;
+		font-size: 34px;
+	}
+	.winner2 {
+		margin: 50px 0;
+		border: 2px solid #fff;
+		width: 909px;
+		padding: 80px 172px 54px 181px;
+		color: #fff;
+		font-size: 16px;
+
+	}
+	.section-bot{
+		height: 1415px;
+	}
+	.container3 {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		position: relative;
+		margin: 50px 0;
+	}
+	.inner3 {
+		margin: 0 auto;
+		background-color: #fff;
+			width: 411px;
+			position: absolute;
+			top: -20px;
+			color: #000;
+			font-size: 34px;
+			text-transform: uppercase;
+		}
+		.winner3 {
+			margin: 0 auto;
+			border: 2px solid #000;
+			width: 909px;
+			padding: 80px 172px 54px 181px;
+			color: #000;
+			font-size: 16px;
+		}
+		.winner3 span {
+			text-transform: uppercase;
+			font-size: 20px;
+		}
+		.otstup {
+height: 111px;
+		}
+
+		.img {
+			margin-top: -360px;
+			text-transform: uppercase;
+			font-size: 34px;
+		}
+		.img__container{
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.img-item {
+			flex-basis: 33.33%;
+		
+		}
+		.img1 {
+			height: 237px;
+			background-image: url(../img/1.jpg);
+			background-repeat: no-repeat;
+			padding-top: 167px;
+			padding-left: 60px;
+			color: #fff;
+			margin-right: 12px;
+			margin-bottom: 12px;
+		
+		}
+		.img2 {
+			height: 237px;
+			background-image: url(../img/2.jpg);
+			background-repeat: no-repeat;
+			padding-top: 167px;
+			padding-left: 60px;
+			color: #fff;
+			margin-right: 12px;
+			margin-bottom: 12px;
+		}
+		.img3 {
+			height: 237px;
+			background-image: url(../img/3.jpg);
+			background-repeat: no-repeat;
+			padding-top: 167px;
+			padding-left: 60px;
+			color: #fff;
+			margin-bottom: 12px;
+		}
+		.img4 {
+			height: 237px;
+			background-image: url(../img/4.jpg);
+			background-repeat: no-repeat;
+			padding-top: 167px;
+			padding-left: 60px;
+			color: #fff;
+			margin-right: 12px;
+		}
+		.img5 {
+			height: 237px;
+			background-image: url(../img/5.jpg);
+			background-repeat: no-repeat;
+			padding-top: 167px;
+			padding-left: 60px;
+			color: #fff;
+			margin-right: 12px;
+		}
+		.img6 {
+			height: 237px;
+			background-image: url(../img/6.jpg);
+			background-repeat: no-repeat;
+			padding-top: 167px;
+			padding-left: 60px;
+			color: #fff;
+		}
+		.section-bot2 {
+	
+		}
+		.container4 {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+
+			position: relative;
+			margin: 50px 0;
+		}
+		.inner4 {
+			margin: 0 auto;
+			background-color: #fff;
+				width: 411px;
+				position: absolute;
+				top: -25px;
+				color: #000;
+				font-size: 34px;
+				text-transform: uppercase;
+			}
+			.winner4 {
+				margin: 0 auto;
+				border: 2px solid #000;
+				width: 909px;
+				padding: 80px 172px 54px 181px;
+				color: #000;
+				font-size: 16px;
+			}
+			.winner4 a{
+				display: block;
+				margin: 0 auto;
+				text-transform: uppercase;
+				text-decoration: none;
+				height: 59px;
+				width: 395px;
+				background-color: #3c3c3c;
+				color: #fff;
+				padding: 23px 144px 22px 146px;
+			}
+			.otstup2 {
+				height: 45px;
+			}
+			.footer {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+				margin: 0 auto;
+				text-align: center;
+				height: 165px;
+			}
